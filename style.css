@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    background: url(rag.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.head h1{
+    color: rgba(255, 255, 255, 0.904);
+    letter-spacing: 13px;
+    font-family: montserrat;
+    font-weight: 800;
+    font-size: 3vw;
+}
+
+.head h1::first-letter{
+    font-size: 5vw;
+    color: red;
+}
+
+.head p{
+    color: white;
+    font-weight: 600;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 160px;
+}
+
+.photos img{
+    width: 100px;
+    height: 100px;
+    opacity: 0.3;
+
+}
+
+.photos p{
+    color: white;
+}
+
+.photos img:hover{
+    scale: 1.5;
+    transition: 0.5s linear;
+}
+
+.para{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin-top: 80px;
+}
+
+.soon p{
+    color: white;
+    font-weight: 600;
+    font-family: josefin sans;
+}
+
+.soon h5{
+    color: grey;
+    font-family: poppins;
+}
+
+.words p{
+    color: rgb(255, 253, 253);
+    font-size: 14px;
+    font-family: josefin sans;
+    color: rgb(220, 207, 207);
+}
+
+.info p{
+    color: rgb(217, 214, 214);
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.main{
+    font-weight: 700;
+}
+
+.name{
+    color: rgb(182, 178, 178);
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.watch{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.watch svg{
+    width: 100px;
+    background-color: red;
+}
+
+.watch img{
+    width: 80px;
+    height: 60px;
+}
+
+.watch svg:hover{
+    scale: 1.2;
+    transition: 0.5s linear;
+}
+.watch img:hover{
+    scale: 1.2;
+    transition: 0.5s linear;
+}
